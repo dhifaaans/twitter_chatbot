@@ -7,19 +7,15 @@ To make life easier for beginners looking to experiment with seq2seq model. Read
 
 ## Datasets
 
-- [x] [CMU Pronouncing Dictionary](https://github.com/suriyadeepan/datasets/tree/master/seq2seq/CMUdict) : Phoneme sequence to word (sequence of alphabets)
-![](/img/phoneme.png)
 
-_______________________________________________________________
-
-- [x] [Twitter Chat Log](https://github.com/suriyadeepan/datasets/tree/master/seq2seq/twitter) : Sentence to Sentence
+- [x] [Twitter Chat Log] : Sentence to Sentence
 
 ![](/img/twitter01.png)
 ![](/img/twitter02.png)
 
 **Update**
 
-After tweaking the dataset to bring down the overall % of unknown tokens to 3%, increasing vocabulary to 8000, the [results](https://gist.github.com/suriyadeepan/5d4aaf96c7bd89b908921804c683fee8) are promising.
+After tweaking the dataset to bring down the overall % of unknown tokens to 3%, increasing vocabulary to 8000, the results are promising.
 
 | Query					| Reply					|
 | ------------- | ------------- |
@@ -40,34 +36,6 @@ After tweaking the dataset to bring down the overall % of unknown tokens to 3%, 
 | hey happy birthday have a nice day | thank you |
 
 _______________________________________________________________
-
-- [x] [Cornell Movie Dialog Corpus](https://github.com/suriyadeepan/datasets/tree/master/seq2seq/cornell_movie_corpus)
-
-\~4% unknown tokens in dataset; vocabulary of 8000.
-
-| Query					| Reply					|
-| ------------- | ------------- |
-| when are you going to let the police know | you dont know what youre talking about |
-| you can do it | yeah i think so |
-| wait are you saying that i dont appreciate | i know you know what i mean |
-| youre terrible | yeah but im not |
-| nah i dont think so | why not |
-| hes pissing in our faces again and were just taking it | i cant |
-| im sorry i dont know what else to say except im sorry | why would you like to be |
-| nobodys gonna get you now get inside | i cant go back |
-| shall i leave | of course |
-| well i really think hes got a chance | i know |
-| youd better be quiet sandy | shut up |
-| jesus christ you scared the shit out of me | whats going on |
-| well im sorry im really sorry ellie | its okay |
-| my lady this play will end badly i will tell | lets get out of here |
-| im going to miss you | no youre not |
-| what do you mean | i dont know i dont know what i mean |
-| my god these people are insane | we dont know what they are |
-| this isnt a date | no what is it |
-| you ought to go home and take care of that | i cant do that |
-| is something wrong | no no no |
-
 
 ## Credits
 
